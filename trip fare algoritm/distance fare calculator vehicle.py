@@ -56,9 +56,9 @@ class VehicleRenter(cmd.Cmd):
     intro = 'Welcome to the taxi recorder.   Type help or ? to list commands.\n'
     prompt = '> '
     vehicles = {
-        'saloon':         Vehicle(2000, 1.00, 7.4/100),
-        'people-carrier': Vehicle(4000, 1.25, 8.6/100),
-        'mini-van':       Vehicle(5000, 1.50, 9.2/100),
+        'saloon':         Vehicle(2000, 500, 7.4/100),
+        'people-carrier': Vehicle(4000, 500, 8.6/100),
+        'mini-van':       Vehicle(5000, 500, 9.2/100),
     }
 
     def get_vehicle(self, vehicle):

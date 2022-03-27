@@ -56,7 +56,7 @@ class MotocycleRenter(cmd.Cmd):
     intro = 'Welcome to distance fare.   Type help or ? to list commands.\n'
     prompt = '> '
     motocycles = {
-        'boda':         Motocycle(1000, 500, 4.4/100),
+        'boda':         Motocycle(1000, 500, 30/100),
     }
 
     def get_motocycle(self, motocycle):
